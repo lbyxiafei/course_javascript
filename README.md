@@ -12,3 +12,15 @@
 > const在对象是非primitive时较特殊，可以更改内容，但无法re-assign
 
 ## [Projects Reference](https://github.com/bradtraversy/modern_js_udemy_projects)
+
+## Function
+
+### IIFE
+
+> Immediate Invokable Function Expression
+
+```javascript
+(function sayhi(p){
+    console.log(`${p} says hi`);
+})('llama');
+```
